@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(to left,#8929f0,#70d3f1);
+    background:white;
     z-index: -1;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -72,10 +72,29 @@ nav img{
 #proj section{
     /* border: 2px solid black; */
     margin: 10px;
-    background-color: antiquewhite;
+    background-color: rgb(206, 126, 21);
     text-align: center;
 }
 #proj section img{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+#blo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#blo section{
+    /* border: 2px solid black; */
+    margin: 10px;
+    background-color: rgb(206, 126, 21);
+    text-align: center;
+}
+#blo section img{
     width: 300px;
     height: 200px;
     padding: 5px;
