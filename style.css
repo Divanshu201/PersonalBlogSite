@@ -36,6 +36,7 @@ nav img{
     visibility: visible;
     background-color: white;
     margin: 20px 5px;
+    cursor: pointer;
 }
 #me{
     display: flex;
